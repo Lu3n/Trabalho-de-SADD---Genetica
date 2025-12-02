@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # 1 - CARREGAR OS DADOS REAIS DO ENEM
 # ============================================
 
-# 👉 Altere este caminho conforme onde o arquivo está salvo no seu computador
+
 caminho_arquivo = r"C:\\Users\\pichau\\Downloads\\microdados_enem_2023\\DADOS\\MICRODADOS_ENEM_2023.csv"
 
 
