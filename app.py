@@ -1,11 +1,3 @@
-# ============================================
-# TRABALHO SAD GENÉTICO - SELEÇÃO DE BOLSISTAS
-# ============================================
-# Autor: [Seu Nome]
-# Linguagem: Python puro
-# Objetivo: Selecionar o melhor grupo de 100 bolsistas usando algoritmo genético
-# ============================================
-
 import pandas as pd
 import random
 import matplotlib.pyplot as plt
