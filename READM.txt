@@ -1,4 +1,4 @@
-lgoritmo Genético para Seleção de Bolsistas – ENEM 2023
+Algoritmo Genético para Seleção de Bolsistas – ENEM 2023
 
 Este projeto implementa, do zero, um Algoritmo Genético em Python para selecionar automaticamente a melhor combinação de 100 bolsistas utilizando dados reais dos Microdados ENEM 2023.
 
