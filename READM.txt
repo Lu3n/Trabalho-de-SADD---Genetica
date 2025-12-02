@@ -67,3 +67,23 @@ Melhor aptidão: 368.13
 Média das notas: 576.20  
 Diversidade: 12 categorias distintas  
 Cobertura geográfica: 23 estados representados  
+
+
+
+ Tecnologias Utilizadas
+
+- Python 3.10+
+- Pandas
+- Matplotlib
+- ReportLab
+- OpenPyXL
+ 
+1. Instalar dependências
+Git bash
+pip install pandas matplotlib reportlab openpyxl
+
+Para rodar o código
+
+Rode: python app.py
+
+python gerar_relatorio.py
