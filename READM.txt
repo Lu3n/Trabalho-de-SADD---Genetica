@@ -1,0 +1,69 @@
+lgoritmo Genético para Seleção de Bolsistas – ENEM 2023
+
+Este projeto implementa, do zero, um Algoritmo Genético em Python para selecionar automaticamente a melhor combinação de 100 bolsistas utilizando dados reais dos Microdados ENEM 2023.
+
+A solução otimiza simultaneamente três objetivos:
+
+1.  Alta performance acadêmica  
+2.  Cobertura geográfica nacional (diversos estados)
+3.  Diversidade socioeconômica e racial
+
+O projeto foi desenvolvido para fins acadêmicos na disciplina de Sistemas de Apoio à Decisão (SAD).
+
+ Funcionalidades
+
+
+- Carregamento dos microdados oficiais do ENEM (CSV).
+
+- Filtragem e pré-processamento dos dados.
+
+- Implementação completa do algoritmo genético:
+  - população inicial  
+  - seleção por torneio  
+  - crossover  
+  - mutação  
+  - elitismo
+
+- Avaliação multicritério de cada grupo de candidatos.
+
+- Seleção automática do **grupo ideal de 100 candidatos**.
+
+- Geração de gráficos:
+  - distribuição de notas  
+  - diversidade socioeconômica  
+  - distribuição geográfica  
+
+
+- Exportação do grupo ideal:
+  - bolsistas_selecionados.csv` 
+  - bolsistas_selecionados.xlsx
+
+- Geração de relatório automático (PDF).
+
+
+ Estrutura do Algoritmo Genético
+
+- Tamanho da população: 20 grupos  
+- Tamanho de cada grupo (cromossomo):** 100 candidatos  
+- Número de gerações: 100  
+- Taxa de crossover: 0.7  
+- Taxa de mutação: 0.1  
+
+ Função de Aptidão
+
+A aptidão combina três fatores com pesos diferentes:
+
+ Critério | Peso | Descrição |
+
+ Desempenho acadêmico | 0.5 | Média das notas do ENEM |
+ Diversidade socioeconômica e racial | 0.3 | Variabilidade de renda, escolaridade familiar, raça e tipo de escola |
+ Cobertura geográfica | 0.2 | Quantidade de estados representados |
+
+
+Resultados Obtidos (Exemplo Real)
+
+Após 100 gerações:
+Melhor aptidão: 368.13  
+Média das notas: 576.20  
+Diversidade: 12 categorias distintas  
+Cobertura geográfica: 23 estados representados  
